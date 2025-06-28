@@ -1,0 +1,45 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A modern web application for generating QR codes with beautiful UI",
+  "main": "qrcode.py",
+  "scripts": {
+    "start": "python qrcode.py",
+    "dev": "python qrcode.py",
+    "install-deps": "pip install -r requirements.txt",
+    "build": "echo 'No build step required for Python Flask app'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "qr-code",
+    "generator",
+    "flask",
+    "python",
+    "web-app",
+    "qr",
+    "barcode"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/qr-code-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/qr-code-generator/issues"
+  },
+  "homepage": "https://github.com/yourusername/qr-code-generator#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "python": {
+    "dependencies": [
+      "flask>=2.0.0",
+      "qrcode>=7.0.0",
+      "pillow>=8.0.0"
+    ]
+  }
+} 
